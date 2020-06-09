@@ -1,0 +1,169 @@
+body {
+    background-color: lightblue;
+}
+
+.App {
+    max-width: 992px;
+    background-color: #fff;
+    margin: auto;
+}
+.home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-image:hover {
+    background-image: url('https://ichef.bbci.co.uk/news/660/cpsprodpb/C267/production/_105776794_oscars_index_reuters_1.jpg');
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.home-thumbnail-1 {
+    background-image: url('https://cdn1.thr.com/sites/default/files/imagecache/list_landscape_960x541/2019/02/_jaime_ray_newman_and_guy_nattiv_accept_the_best_live_action_short_film_award_for_skin_onstage_during_the_91st_annual_academy_awards-oscars_2019-getty-h_2019.jpg');
+}
+
+.home-thumbnail-2 {
+    background-image: url('https://pmcvariety.files.wordpress.com/2019/02/green-book-3.jpg');
+}
+
+.home-thumbnail-3 {
+    background-image: url('https://www.latimes.com/resizer/RbwSuCvS8BBrJLnyK7UaqoxzFqU=/1200x0/www.trbimg.com/img-5c737ca5/turbine/la-1551072417-08muj3mbas-snap-image');
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu__link {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.nav-menu__link:hover {
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-menu__link.active {
+    background-color: rgb(77, 43, 131);
+    color: #fff;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
+
+.main-content {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.main-content h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.actor-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.actor-image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.actor-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.actor-image:hover {
+    cursor: pointer;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.film-image {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.film-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
